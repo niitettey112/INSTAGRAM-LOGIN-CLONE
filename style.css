@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    width: 780px;
+    background-color: white;
+}
+
+.left{
+    left: 0;
+    height: 560px;
+    margin: 0 20px 0 0;
+}
+
+.left img{
+    height: 620px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.left .screen{
+    position: absolute;
+    top: 9.2%;
+    left: 24.4%;
+    height:515px;
+    padding-bottom: 0 ;
+}
+
+/* FONT FACE */
+@font-face {
+    font-family: instagram;
+    src: url(./font/instagram.otf);
+}
+
+.right{
+    width: 350px;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    margin-bottom: 10px;
+    padding: 0 50px 0 50px;
+}
+
+.box h2{
+    padding: 35px 0 35px 0;
+    font-family: instagram;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.box .inputbx{
+    padding: 4px;
+    width: 250px;
+}
+
+.inputbx input{
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    letter-spacing: .5px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    font-size: .68em;
+}
+
+.login{
+    margin-top: 5px;
+    width: 240px;
+}
+
+.login input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #47afff8a;
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 0.89em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.firstLine{
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.24);
+    height: 1px;
+}
+
+.h3{
+    padding: 0 10px 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: .78em;
+    color: rgba(128, 128, 128, 0.534);
+}
+
+.secondLine{
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.24);
+    height: 1px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.links a{
+    padding: 10px;
+    color: #005ba1;
+    font-size: .85em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.txtbx{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    margin-bottom: 10px;
+}
+
+.txtbx p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .85em;
+}
+
+.txtbx a{
+    padding: 10px;
+    text-decoration: none;
+    color: #005ba1;
+}
+
+.app{
+    text-align: center;
+}
+
+.app h4{
+    margin: 15px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .85em;
+}
+
+.app img{
+    height: 40px;
+}
+
+footer{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    height: 160px;
+    width: 100vw;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+footer .footer-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+footer .footer-links ul li{
+    font-size: 0.9em;
+    padding: 10px 20px;
+    list-style: none;
+    text-align: center;
+}
+
+footer .footer-links ul li a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.664);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer .copy{
+    text-align: center;
+    margin-top: -22px;
+    color: rgba(128, 128, 128, 0.651);
+    font-size: 0.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
